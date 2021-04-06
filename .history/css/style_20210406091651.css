@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;500&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: var(--fuente);
+}
+header,
+section {
+  overflow-x: hidden;
+}
+:root {
+  --fuente: "Montserrat", cursive;
+  --azul: #31469d;
+  --clarito: #808080;
+  --negro: #000000;
+  --regular: 400;
+  --medium: 500;
+  --semi_bold: 600;
+  --bold: 500;
+}
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semi {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.azul {
+  color: #31469d;
+}
+.claro {
+  color: #808080;
+}
+.negro {
+  color: #000000;
+}
+.section_1 .row .col-md-5 {
+  padding: 4vmin 1vmin;
+  padding-bottom: 2vmin;
+  padding-left: 12vmin;
+}
+.section_1 .row .col-md-7 img {
+  width: 100%;
+}
+.section_1 .row .col-md-5 h1 {
+  font-size: 1.7vmin;
+}
+.section_1 .row .col-md-5 p {
+  font-size: 1.5vmin;
+}
+.section_1 .row .col-md-5 .logo {
+  width: 77%;
+  padding-left: 2vmin;
+}
+.section_1 .row .col-md-6 img {
+  width: 100%;
+  padding-top: 2vmin;
+}
+.section_1 .row .col-md-6 h1 {
+  padding: 2.4vmin 2vmin;
+}

@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: var(--funte);
+}
+header,
+section {
+  overflow-x: hidden;
+}
+:root {
+  --fuente: "Montserrat", cursive;
+  --azul: #31469d;
+  --clarito: #808080;
+  --negro: #000000;
+  --regular: 700;
+}
+h1 {
+  font-weight: var(--regular);
+}
